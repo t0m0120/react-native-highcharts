@@ -31,7 +31,7 @@ class ChartWeb extends Component {
                     }
                     </style>
                     <head>
-                        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
                         ${this.props.stock ? '<script src="https://code.highcharts.com/stock/highstock.js"></script>'
                                       : '<script src="https://code.highcharts.com/highcharts.js"></script>'}
                         ${this.props.more ? '<script src="https://code.highcharts.com/highcharts-more.js"></script>'
